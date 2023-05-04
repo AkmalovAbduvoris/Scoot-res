@@ -1,0 +1,46 @@
+.sign{
+    background-color: #495567;
+    padding: 102px 0;
+    background-image: url('/img/footer__bgi.svg');
+    background-repeat: no-repeat;
+    background-position: 520px 141px;
+    .sign__wrapper{
+        .sign__wrapper-t {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            position: relative;
+            ::after{
+                position: absolute;
+                border-radius: 50%;
+                mix-blend-mode: normal;
+                opacity: 0.1;
+                transform: matrix(-1, 0, 0, 1, 0, 0);
+                border: 15px solid #E5ECF4;
+                width: 347px;
+                height: 347px;
+                left: 0;
+                top: 0;
+                content: '';
+                z-index: -1;
+            }
+            .sign__text {
+                font-family: 'Space Mono';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                letter-spacing: -2.14286px;
+                color: #FFFFFF;
+                max-width: 415px;
+            }
+            .sign__img-wrapper {
+                .sign__img{
+                    margin-left: 18px;
+                }
+            }
+        }
+    }
+}
+
+

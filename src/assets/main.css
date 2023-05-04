@@ -1,0 +1,49 @@
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../assets/fonts/space-mono-v12-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+     url('../assets/fonts/space-mono-v12-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* space-mono-700 - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Space Mono';
+     font-style: normal;
+     font-weight: 700;
+     src: url('../assets/fonts/space-mono-v12-latin-700.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+     url('../assets/fonts/space-mono-v12-latin-700.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* lexend-deca-regular - latin */
+@font-face {
+     font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+     font-family: 'Lexend Deca';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../assets/fonts/lexend-deca-v21-latin-regular.woff2') format('woff2'), /* Chrome 36+, Opera 23+, Firefox 39+ */
+     url('../assets/fonts/lexend-deca-v21-latin-regular.woff') format('woff'); /* Chrome 5+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     text-decoration: none;
+     list-style: none;
+}
+body{
+     font-family: 'Space Mono';
+     overflow-x: hidden;
+}
+.container {
+     max-width: 1146px;
+     margin: 0 auto;
+     padding: 0 20px;       
+}
+@media only screen and (max-width: 768px) {
+     .container{
+          max-width: 748px;
+          margin: 0 auto;
+          padding: 0 20px;
+     }
+}
