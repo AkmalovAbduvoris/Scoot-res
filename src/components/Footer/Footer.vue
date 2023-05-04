@@ -24,9 +24,9 @@ import './Footer.scss'
                     </ul>
                 </div>
                 <div class="footer__icons">
-                    <img src="img/footer__facebook.svg" width="24" height="24" alt="facebook">
-                    <img src="img/footer__twitter.svg" width="24" height="24" alt="twitter">
-                    <img src="img/footer__instagramm.svg" width="24" height="24" alt="instagramm">
+                    <img src="/img/footer__facebook.svg" width="24" height="24" alt="facebook">
+                    <img src="/img/footer__twitter.svg" width="24" height="24" alt="twitter">
+                    <img src="/img/footer__instagramm.svg" width="24" height="24" alt="instagramm">
                 </div>
             </div>
         </div>
