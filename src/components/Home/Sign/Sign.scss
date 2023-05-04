@@ -42,5 +42,29 @@
         }
     }
 }
-
-
+@media only screen and (max-width: 768px) {
+    .sign{
+        padding: 62px 0;
+        .sign__wrapper{
+            text-align: center;
+            .sign__wrapper-t{
+                display: flex;
+                flex-direction: column;
+                .sign__text{
+                    max-width: 457px;
+                    padding-bottom: 40px;
+                }
+                .sign__img-wrapper{
+                    .sign__img:nth-child(1){
+                        width: 113.57px;
+                        height: 40px;
+                    }
+                    .sign__img:nth-child(2){
+                        width: 130px;
+                        height: 40px;
+                    }
+                }
+            }
+        }
+    }
+}
