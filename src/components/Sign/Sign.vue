@@ -8,8 +8,8 @@ import './Sign.scss'
                 <div class="sign__wrapper-t">
                     <p class="sign__text">Sign up and Scoot off today</p>
                     <div class="sign__img-wrapper">
-                        <img class="sign__img" src="img/sign__appstore.jpg" alt="AppStore">
-                        <img class="sign__img" src="img/sign__googleplay.jpg" alt="GooglePlay">
+                        <img class="sign__img" src="/img/sign__appstore.jpg" alt="AppStore">
+                        <img class="sign__img" src="/img/sign__googleplay.jpg" alt="GooglePlay">
                     </div>
                 </div>
             </div>
