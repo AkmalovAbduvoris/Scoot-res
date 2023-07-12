@@ -1,8 +1,8 @@
 <script setup>
 import Easy from '../components/Home/Easy/Easy.vue';
 import Sign from '../components/Home/Sign/Sign.vue'
-import Hero from '../components/Home/Hero/hero.vue';
 import Locate from '../components/Home/Locate/Locate.vue';
+import Hero from '../components/Home/Hero/hero.vue';
 
 </script>
 
