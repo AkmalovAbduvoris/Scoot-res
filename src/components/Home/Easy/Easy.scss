@@ -1,6 +1,9 @@
 .easy {
     padding-top: 53px;
     padding-bottom: 200px;
+    background-image: url('/img/easy__bg.png'), url('/img/easy__bg.png'), url('/img/easy__bg.png');
+    background-repeat: no-repeat;
+    background-position: calc(50% + 850px) calc(50% - 600px), calc(50% - 850px) calc(50% - 30px), calc(50% + 850px) calc(50% + 610px);
     &__wrapper {
         .easy__list{
             position: relative;
@@ -47,39 +50,6 @@
                     background-position: center;
                     background-repeat: no-repeat;
                     content: '';
-                }
-                &:nth-child(3)::after{
-                    position: absolute;
-                    width: 445px;
-                    height: 445px;
-                    border-radius: 50%;
-                    background-color: #E5ECF4;
-                    left: 1173px;
-                    bottom: 7px;
-                    content: '';
-                    z-index: -1;
-                }
-                &:nth-child(1)::after{
-                    position: absolute;
-                    width: 445px;
-                    height: 445px;
-                    border-radius: 50%;
-                    background-color: #E5ECF4;
-                    left: 1173px;
-                    top: 159px;
-                    content: '';
-                    z-index: -1;
-                }
-                &:nth-child(2)::after{
-                    position: absolute;
-                    width: 445px;
-                    height: 445px;
-                    border-radius: 50%;
-                    background-color: #E5ECF4;
-                    right: 1170px;
-                    top: 770px;
-                    content: '';
-                    z-index: -1;
                 }
                 .easy__card-l {
                     max-width: 445px;
