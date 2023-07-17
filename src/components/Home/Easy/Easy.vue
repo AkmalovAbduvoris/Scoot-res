@@ -1,5 +1,5 @@
 <script setup>
-import './easy.scss'
+import './Easy.scss'
 </script>
 
 <template>
