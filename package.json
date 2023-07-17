@@ -9,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@vueuse/motion": "^2.0.0",
     "sacc": "^0.0.1",
     "sass": "^1.62.1",
     "scss": "^0.2.4",
