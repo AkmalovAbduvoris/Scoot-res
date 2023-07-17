@@ -2,8 +2,7 @@
 import Easy from '../components/Home/Easy/Easy.vue';
 import Sign from '../components/Home/Sign/Sign.vue'
 import Locate from '../components/Home/Locate/Locate.vue';
-import Hero from '../components/Home/Hero/hero.vue';
-
+import Hero from '../components/Home/Hero/Hero.vue'
 </script>
 
 <template>
