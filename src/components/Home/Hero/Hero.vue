@@ -1,5 +1,5 @@
 <script setup>
-import './hero.scss'
+import './Hero.scss'
 </script>
 <template>
     <section class="hero">
