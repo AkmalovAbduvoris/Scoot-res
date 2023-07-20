@@ -61,6 +61,7 @@
                 .header__nav{
                     .header__list {
                         display: block;
+                        z-index: 10;
                         position: absolute;
                         background-color: #333A44;
                         padding-top: 64px;
@@ -85,6 +86,7 @@
                 position: absolute;
                 bottom: 24px;
                 left: -234px;
+                z-index: 10;
                 opacity: 0;
             }
             .openBtn {
