@@ -7,15 +7,15 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: (HomeView => import('../views/HomeView.vue'))
-      // meta:{
-      //   title: "HOME"
-      // }
+      component: (HomeView => import('../views/HomeView.vue')),
+      meta:{
+        title: "HOME"
+      }
     }
   ]
 })
-// router.beforeEach((to, from, next)   =>{
-//   document.title = `${to.meta.title}`;
-//   next();
-// })
+router.beforeEach((to, from, next)   =>{
+  document.title = `${to.meta.title}`;
+  next();
+})
 export default router
