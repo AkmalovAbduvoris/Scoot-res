@@ -21,6 +21,7 @@
                     top: -136px;
                     left: 0px;
                     background-image: url('/img/locate__phone.svg');
+                    background-repeat: no-repeat;
                     width: 96px;
                     height: 96px;
                     content: '';
@@ -30,6 +31,7 @@
                     top: -136px;
                     left: 379px;
                     background-image: url('/img/locate__pick.svg');
+                    background-repeat: no-repeat;
                     width: 96px;
                     height: 96px;
                     content: '';
@@ -39,6 +41,7 @@
                     top: -136px;
                     left: 759px;
                     background-image: url('/img/locate__scooter.svg');
+                    background-repeat: no-repeat;
                     width: 96px;
                     height: 96px;
                     content: '';
@@ -67,41 +70,91 @@
     }
 }
 @media only screen and (max-width: 768px) {
-.locate{
-    padding-top: 122px;
-    padding-bottom: 145px;
-    .locate__list{
-        flex-direction: column;
-        gap: 0;
-        .locate__item{
-            padding-left: 232px;
-            &::before{
-                top: -180px;
-                left: 94px;
-                border-left: 15.2px solid #E5ECF4;
-                border-top: 0px;
-                content: "";
-            }
-            &:nth-child(1):after {
-                top: 40px;
-                left: 57px;
-            }
-            &:nth-child(2):after {
-                top: 210px;
-                left: 57px;
-            }
-            &:nth-child(3):after {
-                top: 380px;
-                left: 57px;
-            }
-            .locate__title{
-                padding-top: 40px;
-                padding-bottom: 27px;
-            }
-            .lovcate__text{
-                max-width: 398px;
+    .locate{
+        padding-top: 122px;
+        padding-bottom: 145px;
+        .locate__list{
+            flex-direction: column;
+            gap: 0;
+            .locate__item{
+                padding-left: 232px;
+                &::before{
+                    top: -180px;
+                    left: 94px;
+                    border-left: 15.2px solid #E5ECF4;
+                    border-top: 0px;
+                    content: "";
+                }
+                &:nth-child(1):after {
+                    top: 40px;
+                    left: 57px;
+                }
+                &:nth-child(2):after {
+                    top: 210px;
+                    left: 57px;
+                }
+                &:nth-child(3):after {
+                    top: 380px;
+                    left: 57px;
+                }
+                .locate__title{
+                    padding-top: 40px;
+                    padding-bottom: 27px;
+                }
+                .lovcate__text{
+                    max-width: 398px;
+                }
             }
         }
     }
 }
+@media only screen and (max-width: 426px) {
+    .locate{
+        padding-top: 120px;
+        padding-bottom: 0px;
+        &__wrapper{
+            position: relative;
+            .locate__list {
+                align-items: center;
+                justify-content: center;
+                gap: 0px;
+                .locate__item {
+                    margin-bottom: 128px;
+                    padding-left: 0px;
+                    &::before {
+                        content: none;
+                    }
+                    &:nth-child(1):after {
+                        top: -40px;
+                        left: 162px;
+                        background-image: url('/img/locate__phone56.svg');
+                        width: 56px;
+                        height: 56px;
+                    }
+                    &:nth-child(2):after {
+                        top: 275px;
+                        left: 162px;
+                        background-image: url('/img/locate__pick56.svg');
+                        width: 56px;
+                        height: 56px;
+                    }
+                    &:nth-child(3):after {
+                        top: 590px;
+                        left: 162px;
+                        background-image: url('/img/locate__scooter56.svg');
+                        width: 56px;
+                        height: 56px;
+                    }
+                    .locate__title {
+                        text-align: center;
+                        max-width: 311px;
+                    }
+                    .lovcate__text {
+                        text-align: center;
+                        max-width: 311px;
+                    }
+                }
+            }
+        }
+    }
 }

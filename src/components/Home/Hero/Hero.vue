@@ -14,6 +14,5 @@ import './Hero.scss'
                 </div>
             </div>
         </div>
-        
     </section>
 </template>

@@ -19,7 +19,7 @@ import './Easy.scss'
                     </li>
                     <li class="easy__item">
                         <div class="easy__card-l">
-                            <h2 class="easy__title" v-motion-slide-visible-right>Coming to a city near you</h2>
+                            <h2 class="easy__title" v-motion-slide-visible-left>Coming to a city near you</h2>
                             <p class="easy__text">Scoot is available in 4 major cities so far. We’re expanding rapidly, so be sure to let us know if you want to see us in your hometown. We’re aiming to let our scooters loose on 23 cities over the coming year.</p>
                             <button
                             class="easy__btn"
