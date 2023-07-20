@@ -7,9 +7,9 @@ import Hero from '../components/Home/Hero/Hero.vue'
 
 <template>
   <main>
-    <Hero />
+    <!-- <Hero />
     <Locate />
     <Easy />
-    <Sign />
+    <Sign /> -->
   </main>
 </template>

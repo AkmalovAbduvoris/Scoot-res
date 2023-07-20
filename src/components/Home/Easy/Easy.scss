@@ -103,6 +103,7 @@
 }
 @media only screen and (max-width: 768px) {
     .easy{
+        background-position: calc(50% + 500px) calc(50% - 1135px), calc(50% - 508px) calc(50% - 198px), calc(50% + 510px) calc(50% + 680px);
         &__wrapper{
             .easy__list{
                 .easy__item{
