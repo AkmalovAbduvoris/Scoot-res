@@ -10,6 +10,6 @@ import Hero from '../components/Home/Hero/Hero.vue'
     <Hero />
     <Locate />
     <Easy />
-    <!-- <Sign /> -->
+    <Sign />
   </main>
 </template>
