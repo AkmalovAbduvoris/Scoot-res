@@ -1,7 +1,6 @@
 <script setup>
 import { ref } from 'vue';
 import './Header.scss'
-
 const clicked = ref(false)
 const btnClicked = ref(false)
 function hamburger(){
